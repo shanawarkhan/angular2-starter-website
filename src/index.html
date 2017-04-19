@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Angular QuickStart</title>
+    <base href="/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Swim in the Ocean of Quotes and never run out of ideas, inspiration, or energy. Over 61K Quotes from more than 11K authors. Submit your own Quote and be part of our authors' community.">
+    <meta name="keywords" content="quotes,quotations,love,inspirational,life,nature,loneliness,wisdom,poetry,art,famous quotes,top quotations,quotes of all times,best quotes,top quotes,inspiring quotes,deep quotes">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('main.js').catch(function(err){ console.error(err); });
+    </script>
+  </head>
+
+  <body>
+    <base href="/">
+    <my-app>Loading AppComponent content here ...</my-app>
+  </body>
+</html>
